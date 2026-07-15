@@ -15,8 +15,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://carewise-final.vercel.app",
-    "https://carewise-final-dm7f5fffd-placement3.vercel.app"
+    "https://carewise-neon.vercel.app"
   ],
   credentials: true,
 }));
