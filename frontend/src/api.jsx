@@ -1,6 +1,6 @@
 import axios from "axios";
 const api = axios.create({
-  baseURL:"https://carewise-vphl.onrender.com" ,
+  baseURL:"https://carewise-vphl.onrender.com/api" ,
 });
 
 
