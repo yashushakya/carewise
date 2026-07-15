@@ -18,7 +18,7 @@ const STARTER_PROMPTS = [
 // API base URL — adjust this to match your existing setup
 // If your other API calls use "/api/..." then keep this
 // If they use "http://localhost:5000/api/..." then change accordingly
-const API_BASE = import.meta.env.VITE_API_URL || "https://carewise-final.onrender.com";
+const API_BASE = import.meta.env.VITE_API_URL || "https://carewise-vphl.onrender.com/";
 
 export default function Assistant() {
   const navigate = useNavigate();
