@@ -1,0 +1,58 @@
+// FILE: frontend/src/data/staticData.js
+// ACTION: Replace the doctors array only — keep hospitals and specialties unchanged
+
+export const doctors = [
+  { id: 1,  name: "Dr. Priya Sharma",    specialty: "General Physician",   experience: 12, fees: 500,  rating: 4.8, hospital: "Apollo Hospital",            contact: "9876543210", city: "Mumbai",    workingDays: ["Monday","Tuesday","Wednesday","Thursday","Friday"] },
+  { id: 2,  name: "Dr. Rahul Mehta",     specialty: "Cardiologist",        experience: 18, fees: 1200, rating: 4.9, hospital: "Fortis Heart Institute",      contact: "9876543211", city: "Delhi",     workingDays: ["Monday","Wednesday","Friday"] },
+  { id: 3,  name: "Dr. Anjali Nair",     specialty: "Dermatologist",       experience: 8,  fees: 800,  rating: 4.7, hospital: "Skin & Care Clinic",         contact: "9876543212", city: "Bangalore", workingDays: ["Tuesday","Thursday","Saturday"] },
+  { id: 4,  name: "Dr. Suresh Patel",    specialty: "Orthopedic",          experience: 15, fees: 1000, rating: 4.6, hospital: "Bone & Joint Centre",        contact: "9876543213", city: "Ahmedabad", workingDays: ["Monday","Tuesday","Wednesday","Thursday","Friday"] },
+  { id: 5,  name: "Dr. Meera Iyer",      specialty: "Gynecologist",        experience: 20, fees: 900,  rating: 4.9, hospital: "Motherhood Hospital",        contact: "9876543214", city: "Chennai",   workingDays: ["Monday","Wednesday","Friday","Saturday"] },
+  { id: 6,  name: "Dr. Aakash Verma",    specialty: "Neurologist",         experience: 14, fees: 1500, rating: 4.8, hospital: "Neuro Care Institute",       contact: "9876543215", city: "Hyderabad", workingDays: ["Tuesday","Thursday","Friday"] },
+  { id: 7,  name: "Dr. Sonal Gupta",     specialty: "Dentist",             experience: 7,  fees: 600,  rating: 4.5, hospital: "SmilePro Dental",            contact: "9876543216", city: "Pune",      workingDays: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"] },
+  { id: 8,  name: "Dr. Vivek Rao",       specialty: "Pediatrician",        experience: 11, fees: 700,  rating: 4.9, hospital: "Children's Care Hospital",   contact: "9876543217", city: "Mumbai",    workingDays: ["Monday","Tuesday","Wednesday","Thursday","Friday"] },
+  { id: 9,  name: "Dr. Neha Singh",      specialty: "Psychiatrist",        experience: 9,  fees: 1100, rating: 4.7, hospital: "Mind Wellness Centre",       contact: "9876543218", city: "Delhi",     workingDays: ["Monday","Wednesday","Thursday","Friday"] },
+  { id: 10, name: "Dr. Kiran Pillai",    specialty: "ENT Specialist",      experience: 13, fees: 850,  rating: 4.6, hospital: "Hearing & Speech Clinic",    contact: "9876543219", city: "Kochi",     workingDays: ["Tuesday","Wednesday","Thursday","Saturday"] },
+  { id: 11, name: "Dr. Rohan Desai",     specialty: "Ophthalmologist",     experience: 10, fees: 900,  rating: 4.7, hospital: "Clear Vision Eye Care",      contact: "9876543220", city: "Nagpur",    workingDays: ["Monday","Tuesday","Thursday","Friday"] },
+  { id: 12, name: "Dr. Pooja Kapoor",    specialty: "Endocrinologist",     experience: 16, fees: 1300, rating: 4.8, hospital: "Diabetes & Hormone Clinic",  contact: "9876543221", city: "Jaipur",    workingDays: ["Monday","Wednesday","Friday"] },
+  { id: 13, name: "Dr. Amit Saxena",     specialty: "Gastroenterologist",  experience: 17, fees: 1200, rating: 4.6, hospital: "Digestive Health Centre",    contact: "9876543222", city: "Lucknow",   workingDays: ["Tuesday","Thursday","Friday","Saturday"] },
+  { id: 14, name: "Dr. Divya Menon",     specialty: "Pulmonologist",       experience: 12, fees: 1100, rating: 4.7, hospital: "Breath Easy Clinic",         contact: "9876543223", city: "Bangalore", workingDays: ["Monday","Tuesday","Wednesday","Friday"] },
+  { id: 15, name: "Dr. Sandeep Kumar",   specialty: "Urologist",           experience: 14, fees: 1000, rating: 4.5, hospital: "Urology & Kidney Care",      contact: "9876543224", city: "Chandigarh",workingDays: ["Monday","Wednesday","Thursday","Friday"] },
+  { id: 16, name: "Dr. Lakshmi Rajan",   specialty: "Rheumatologist",      experience: 11, fees: 1200, rating: 4.6, hospital: "Arthritis & Joint Clinic",   contact: "9876543225", city: "Coimbatore",workingDays: ["Tuesday","Thursday","Saturday"] },
+  { id: 17, name: "Dr. Nitin Agarwal",   specialty: "Oncologist",          experience: 22, fees: 2000, rating: 4.9, hospital: "Cancer Care Institute",      contact: "9876543226", city: "Mumbai",    workingDays: ["Monday","Tuesday","Wednesday","Thursday"] },
+  { id: 18, name: "Dr. Swati Joshi",     specialty: "Physiotherapist",     experience: 6,  fees: 500,  rating: 4.5, hospital: "Active Life Rehab",          contact: "9876543227", city: "Pune",      workingDays: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"] },
+  { id: 19, name: "Dr. Praveen Nath",    specialty: "Nephrologist",        experience: 15, fees: 1400, rating: 4.7, hospital: "Kidney Care Hospital",       contact: "9876543228", city: "Hyderabad", workingDays: ["Monday","Wednesday","Friday"] },
+  { id: 20, name: "Dr. Rekha Sharma",    specialty: "Surgeon",             experience: 19, fees: 1800, rating: 4.8, hospital: "General Surgery Centre",     contact: "9876543229", city: "Delhi",     workingDays: ["Tuesday","Thursday","Friday"] },
+];
+export const hospitals = [
+  { id: 1, name: "Apollo Hospital", city: "Mumbai", beds: 500, rating: 4.9, specialties: ["Cardiology", "Neurology", "Oncology"], contact: "022-12345678", emergency: true },
+  { id: 2, name: "Fortis Healthcare", city: "Delhi", beds: 400, rating: 4.8, specialties: ["Orthopedics", "Nephrology", "Gastroenterology"], contact: "011-12345678", emergency: true },
+  { id: 3, name: "Manipal Hospital", city: "Bangalore", beds: 600, rating: 4.7, specialties: ["Dermatology", "Pulmonology", "Gynecology"], contact: "080-12345678", emergency: true },
+  { id: 4, name: "Narayana Health", city: "Hyderabad", beds: 750, rating: 4.9, specialties: ["Cardiology", "Pediatrics", "Transplant"], contact: "040-12345678", emergency: true },
+  { id: 5, name: "Medanta Hospital", city: "Gurugram", beds: 1250, rating: 4.8, specialties: ["Neurosurgery", "Oncology", "Endocrinology"], contact: "0124-12345678", emergency: true },
+  { id: 6, name: "AIIMS Delhi", city: "Delhi", beds: 2000, rating: 4.9, specialties: ["All Specialties"], contact: "011-26588500", emergency: true },
+  { id: 7, name: "Kokilaben Hospital", city: "Mumbai", beds: 750, rating: 4.8, specialties: ["Robotics Surgery", "Cancer Care", "Neurology"], contact: "022-30999999", emergency: true },
+  { id: 8, name: "Lilavati Hospital", city: "Mumbai", beds: 323, rating: 4.7, specialties: ["Cardiology", "Orthopedics", "Nephrology"], contact: "022-26751000", emergency: true },
+];
+
+export const specialties = [
+  { name: "General Physician", icon: "🩺", description: "Common illnesses, fever, cold" },
+  { name: "Dermatologist", icon: "🧴", description: "Skin, hair, nail conditions" },
+  { name: "Dentist", icon: "🦷", description: "Teeth, gums, oral health" },
+  { name: "Cardiologist", icon: "❤️", description: "Heart conditions, BP" },
+  { name: "Neurologist", icon: "🧠", description: "Brain, nerves, spine" },
+  { name: "Orthopedic", icon: "🦴", description: "Bones, joints, muscles" },
+  { name: "Gynecologist", icon: "👩‍⚕️", description: "Women's health" },
+  { name: "Oncologist", icon: "🔬", description: "Cancer treatment" },
+  { name: "Psychiatrist", icon: "🧘", description: "Mental health, therapy" },
+  { name: "Pediatrician", icon: "👶", description: "Children's health" },
+  { name: "ENT Specialist", icon: "👂", description: "Ear, nose, throat" },
+  { name: "Ophthalmologist", icon: "👁️", description: "Eyes, vision care" },
+  { name: "Urologist", icon: "💊", description: "Urinary tract, kidneys" },
+  { name: "Gastroenterologist", icon: "🫃", description: "Stomach, liver, gut" },
+  { name: "Pulmonologist", icon: "🫁", description: "Lungs, breathing issues" },
+  { name: "Endocrinologist", icon: "⚗️", description: "Diabetes, hormones, thyroid" },
+  { name: "Nephrologist", icon: "🩻", description: "Kidney diseases" },
+  { name: "Rheumatologist", icon: "🦾", description: "Arthritis, autoimmune" },
+  { name: "Surgeon", icon: "🔪", description: "Surgical procedures" },
+  { name: "Physiotherapist", icon: "🏃", description: "Rehab, pain management" },
+];
